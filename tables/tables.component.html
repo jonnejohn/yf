@@ -1,0 +1,48 @@
+
+<div class="modal-body">
+    <nb-card>
+       
+        <nb-card-body>
+            <div class="form-group row clearfix">
+                <div class="col-md-12">
+                    <label class="control-label" for="inputFirstName">URL</label>
+                    <div class="input-group input-group-border-only">
+                        <input class="form-control form-control-wizly" id="inputFirstName" placeholder="Enter " type="text" [(ngModel)]="projectName">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form-group row clearfix">
+                <div class="col-md-12">
+                    <label class="control-label" for="inputFirstName">Modelid</label>
+                    <div class="input-group input-group-border-only">
+                        <input class="form-control form-control-wizly" id="inputsecondName" placeholder="Enter " type="text" [(ngModel)]="ModelID">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="form-group row clearfix">
+                <div class="col-md-12">
+                    <label class="control-label" for="inputFirstName">Apiurl</label>
+                    <div class="input-group input-group-border-only">
+                        <input class="form-control form-control-wizly" id="inputFirstName" placeholder="Enter " type="text" [(ngModel)]="Apiurl">
+                    </div>
+                </div>
+
+            </div> -->
+
+            <button class="btn btn-sm float-right" (click)="closeModal()">
+                Cancel
+            </button>
+            <button class="btn btn-sm float-right" (click)="passDataBack()">
+                Save
+            </button>
+        </nb-card-body>
+    </nb-card>
+</div>
+<!-- <div class="modal-footer"> -->
+    
+   
+<!-- </div> -->
